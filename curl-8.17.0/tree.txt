@@ -1,0 +1,409 @@
+Its structure is roughly like this; you can search for and download it directly from Google.
+D:.
+©¦  BUILD-HASHES.txt
+©¦  BUILD-MANIFEST.txt
+©¦  BUILD-README.url
+©¦  COPYING.txt
+©¦  mk-ca-bundle.pl
+©¦  README.txt
+©¦  RELEASE-NOTES.txt
+©¦  tree.txt
+©¦  
+©À©¤bin
+©¦      curl-ca-bundle.crt
+©¦      curl.exe
+©¦      libcurl-arm64.def
+©¦      libcurl-arm64.dll
+©¦      trurl.exe
+©¦      
+©À©¤dep
+©¦  ©À©¤brotli
+©¦  ©¦      LICENSE.txt
+©¦  ©¦      README.md
+©¦  ©¦      
+©¦  ©À©¤cacert
+©¦  ©¦      LICENSE.url
+©¦  ©¦      
+©¦  ©À©¤libpsl
+©¦  ©¦      AUTHORS.txt
+©¦  ©¦      COPYING.txt
+©¦  ©¦      NEWS.txt
+©¦  ©¦      
+©¦  ©À©¤libressl
+©¦  ©¦      ChangeLog.txt
+©¦  ©¦      COPYING.txt
+©¦  ©¦      README.md
+©¦  ©¦      
+©¦  ©À©¤libssh2
+©¦  ©¦  ©¦  COPYING.txt
+©¦  ©¦  ©¦  NEWS.txt
+©¦  ©¦  ©¦  README.txt
+©¦  ©¦  ©¦  RELEASE-NOTES.txt
+©¦  ©¦  ©¦  
+©¦  ©¦  ©¸©¤docs
+©¦  ©¦          AUTHORS.txt
+©¦  ©¦          HACKING-CRYPTO.txt
+©¦  ©¦          INSTALL_AUTOTOOLS.txt
+©¦  ©¦          TODO.txt
+©¦  ©¦          
+©¦  ©À©¤nghttp2
+©¦  ©¦      AUTHORS.txt
+©¦  ©¦      ChangeLog.txt
+©¦  ©¦      COPYING.txt
+©¦  ©¦      README.rst
+©¦  ©¦      
+©¦  ©À©¤nghttp3
+©¦  ©¦      AUTHORS.txt
+©¦  ©¦      ChangeLog.txt
+©¦  ©¦      COPYING.txt
+©¦  ©¦      README.rst
+©¦  ©¦      
+©¦  ©À©¤ngtcp2
+©¦  ©¦      AUTHORS.txt
+©¦  ©¦      ChangeLog.txt
+©¦  ©¦      COPYING.txt
+©¦  ©¦      README.rst
+©¦  ©¦      
+©¦  ©À©¤psl
+©¦  ©¦      LICENSE.url
+©¦  ©¦      
+©¦  ©À©¤trurl
+©¦  ©¦      COPYING.txt
+©¦  ©¦      README.md
+©¦  ©¦      RELEASE-NOTES.txt
+©¦  ©¦      
+©¦  ©À©¤zlibng
+©¦  ©¦      LICENSE.md
+©¦  ©¦      README.md
+©¦  ©¦      
+©¦  ©¸©¤zstd
+©¦          CHANGELOG.txt
+©¦          LICENSE.txt
+©¦          README.md
+©¦          
+©À©¤docs
+©¦  ©¦  ALTSVC.md
+©¦  ©¦  BINDINGS.md
+©¦  ©¦  BUG-BOUNTY.md
+©¦  ©¦  BUGS.md
+©¦  ©¦  CIPHERS-TLS12.md
+©¦  ©¦  CIPHERS.md
+©¦  ©¦  CODE_OF_CONDUCT.md
+©¦  ©¦  CODE_REVIEW.md
+©¦  ©¦  CONTRIBUTE.md
+©¦  ©¦  curl-config.md
+©¦  ©¦  CURL-DISABLE.md
+©¦  ©¦  CURLDOWN.md
+©¦  ©¦  DEPRECATE.md
+©¦  ©¦  DISTROS.md
+©¦  ©¦  EARLY-RELEASE.md
+©¦  ©¦  ECH.md
+©¦  ©¦  EXPERIMENTAL.md
+©¦  ©¦  FAQ.txt
+©¦  ©¦  FEATURES.md
+©¦  ©¦  GOVERNANCE.md
+©¦  ©¦  HELP-US.md
+©¦  ©¦  HISTORY.md
+©¦  ©¦  HSTS.md
+©¦  ©¦  HTTP-COOKIES.md
+©¦  ©¦  HTTP3.md
+©¦  ©¦  HTTPSRR.md
+©¦  ©¦  INFRASTRUCTURE.md
+©¦  ©¦  INSTALL-CMAKE.md
+©¦  ©¦  INSTALL.md
+©¦  ©¦  INSTALL.txt
+©¦  ©¦  INTERNALS.md
+©¦  ©¦  IPFS.md
+©¦  ©¦  KNOWN_BUGS.txt
+©¦  ©¦  MAIL-ETIQUETTE.md
+©¦  ©¦  MANUAL.md
+©¦  ©¦  mk-ca-bundle.md
+©¦  ©¦  options-in-versions.txt
+©¦  ©¦  README.md
+©¦  ©¦  RELEASE-PROCEDURE.md
+©¦  ©¦  RELEASE-TOOLS.md
+©¦  ©¦  ROADMAP.md
+©¦  ©¦  runtests.md
+©¦  ©¦  RUSTLS.md
+©¦  ©¦  SECURITY-ADVISORY.md
+©¦  ©¦  SPONSORS.md
+©¦  ©¦  SSL-PROBLEMS.md
+©¦  ©¦  SSLCERTS.md
+©¦  ©¦  testcurl.md
+©¦  ©¦  THANKS.txt
+©¦  ©¦  TheArtOfHttpScripting.md
+©¦  ©¦  TODO.txt
+©¦  ©¦  URL-SYNTAX.md
+©¦  ©¦  VERSIONS.md
+©¦  ©¦  VULN-DISCLOSURE-POLICY.md
+©¦  ©¦  wcurl.md
+©¦  ©¦  
+©¦  ©À©¤examples
+©¦  ©¦      10-at-a-time.c
+©¦  ©¦      address-scope.c
+©¦  ©¦      altsvc.c
+©¦  ©¦      anyauthput.c
+©¦  ©¦      block_ip.c
+©¦  ©¦      cacertinmem.c
+©¦  ©¦      certinfo.c
+©¦  ©¦      chkspeed.c
+©¦  ©¦      connect-to.c
+©¦  ©¦      cookie_interface.c
+©¦  ©¦      crawler.c
+©¦  ©¦      debug.c
+©¦  ©¦      default-scheme.c
+©¦  ©¦      ephiperfifo.c
+©¦  ©¦      evhiperfifo.c
+©¦  ©¦      externalsocket.c
+©¦  ©¦      fileupload.c
+©¦  ©¦      ftp-delete.c
+©¦  ©¦      ftp-wildcard.c
+©¦  ©¦      ftpget.c
+©¦  ©¦      ftpgetinfo.c
+©¦  ©¦      ftpgetresp.c
+©¦  ©¦      ftpsget.c
+©¦  ©¦      ftpupload.c
+©¦  ©¦      ftpuploadfrommem.c
+©¦  ©¦      ftpuploadresume.c
+©¦  ©¦      getinfo.c
+©¦  ©¦      getinmemory.c
+©¦  ©¦      getredirect.c
+©¦  ©¦      getreferrer.c
+©¦  ©¦      ghiper.c
+©¦  ©¦      headerapi.c
+©¦  ©¦      hiperfifo.c
+©¦  ©¦      hsts-preload.c
+©¦  ©¦      htmltidy.c
+©¦  ©¦      http-options.c
+©¦  ©¦      http-post.c
+©¦  ©¦      http2-download.c
+©¦  ©¦      http2-pushinmemory.c
+©¦  ©¦      http2-serverpush.c
+©¦  ©¦      http2-upload.c
+©¦  ©¦      http3-present.c
+©¦  ©¦      http3.c
+©¦  ©¦      httpcustomheader.c
+©¦  ©¦      httpput-postfields.c
+©¦  ©¦      httpput.c
+©¦  ©¦      https.c
+©¦  ©¦      imap-append.c
+©¦  ©¦      imap-authzid.c
+©¦  ©¦      imap-copy.c
+©¦  ©¦      imap-create.c
+©¦  ©¦      imap-delete.c
+©¦  ©¦      imap-examine.c
+©¦  ©¦      imap-fetch.c
+©¦  ©¦      imap-list.c
+©¦  ©¦      imap-lsub.c
+©¦  ©¦      imap-multi.c
+©¦  ©¦      imap-noop.c
+©¦  ©¦      imap-search.c
+©¦  ©¦      imap-ssl.c
+©¦  ©¦      imap-store.c
+©¦  ©¦      imap-tls.c
+©¦  ©¦      interface.c
+©¦  ©¦      ipv6.c
+©¦  ©¦      keepalive.c
+©¦  ©¦      localport.c
+©¦  ©¦      log_failed_transfers.c
+©¦  ©¦      Makefile.example
+©¦  ©¦      maxconnects.c
+©¦  ©¦      multi-app.c
+©¦  ©¦      multi-debugcallback.c
+©¦  ©¦      multi-double.c
+©¦  ©¦      multi-event.c
+©¦  ©¦      multi-formadd.c
+©¦  ©¦      multi-legacy.c
+©¦  ©¦      multi-post.c
+©¦  ©¦      multi-single.c
+©¦  ©¦      multi-uv.c
+©¦  ©¦      multithread.c
+©¦  ©¦      netrc.c
+©¦  ©¦      parseurl.c
+©¦  ©¦      persistent.c
+©¦  ©¦      pop3-authzid.c
+©¦  ©¦      pop3-dele.c
+©¦  ©¦      pop3-list.c
+©¦  ©¦      pop3-multi.c
+©¦  ©¦      pop3-noop.c
+©¦  ©¦      pop3-retr.c
+©¦  ©¦      pop3-ssl.c
+©¦  ©¦      pop3-stat.c
+©¦  ©¦      pop3-tls.c
+©¦  ©¦      pop3-top.c
+©¦  ©¦      pop3-uidl.c
+©¦  ©¦      post-callback.c
+©¦  ©¦      postinmemory.c
+©¦  ©¦      postit2-formadd.c
+©¦  ©¦      postit2.c
+©¦  ©¦      progressfunc.c
+©¦  ©¦      protofeats.c
+©¦  ©¦      range.c
+©¦  ©¦      resolve.c
+©¦  ©¦      rtsp-options.c
+©¦  ©¦      sendrecv.c
+©¦  ©¦      sepheaders.c
+©¦  ©¦      sessioninfo.c
+©¦  ©¦      sftpget.c
+©¦  ©¦      sftpuploadresume.c
+©¦  ©¦      shared-connection-cache.c
+©¦  ©¦      simple.c
+©¦  ©¦      simplepost.c
+©¦  ©¦      simplessl.c
+©¦  ©¦      smooth-gtk-thread.c
+©¦  ©¦      smtp-authzid.c
+©¦  ©¦      smtp-expn.c
+©¦  ©¦      smtp-mail.c
+©¦  ©¦      smtp-mime.c
+©¦  ©¦      smtp-multi.c
+©¦  ©¦      smtp-ssl.c
+©¦  ©¦      smtp-tls.c
+©¦  ©¦      smtp-vrfy.c
+©¦  ©¦      sslbackend.c
+©¦  ©¦      synctime.c
+©¦  ©¦      threaded-ssl.c
+©¦  ©¦      unixsocket.c
+©¦  ©¦      url2file.c
+©¦  ©¦      urlapi.c
+©¦  ©¦      usercertinmem.c
+©¦  ©¦      websocket-cb.c
+©¦  ©¦      websocket-updown.c
+©¦  ©¦      websocket.c
+©¦  ©¦      xmlstream.c
+©¦  ©¦      
+©¦  ©¸©¤libcurl
+©¦          symbols-in-versions.txt
+©¦          
+©À©¤include
+©¦  ©¦  libpsl.h
+©¦  ©¦  libssh2.h
+©¦  ©¦  libssh2_publickey.h
+©¦  ©¦  libssh2_sftp.h
+©¦  ©¦  zconf.h
+©¦  ©¦  zdict.h
+©¦  ©¦  zlib.h
+©¦  ©¦  zlib_name_mangling.h
+©¦  ©¦  zstd.h
+©¦  ©¦  zstd_errors.h
+©¦  ©¦  
+©¦  ©À©¤brotli
+©¦  ©¦      decode.h
+©¦  ©¦      encode.h
+©¦  ©¦      port.h
+©¦  ©¦      shared_dictionary.h
+©¦  ©¦      types.h
+©¦  ©¦      
+©¦  ©À©¤curl
+©¦  ©¦      curl.h
+©¦  ©¦      curlver.h
+©¦  ©¦      easy.h
+©¦  ©¦      header.h
+©¦  ©¦      mprintf.h
+©¦  ©¦      multi.h
+©¦  ©¦      options.h
+©¦  ©¦      stdcheaders.h
+©¦  ©¦      system.h
+©¦  ©¦      typecheck-gcc.h
+©¦  ©¦      urlapi.h
+©¦  ©¦      websockets.h
+©¦  ©¦      
+©¦  ©À©¤nghttp2
+©¦  ©¦      nghttp2.h
+©¦  ©¦      nghttp2ver.h
+©¦  ©¦      
+©¦  ©À©¤nghttp3
+©¦  ©¦      nghttp3.h
+©¦  ©¦      version.h
+©¦  ©¦      
+©¦  ©À©¤ngtcp2
+©¦  ©¦      ngtcp2.h
+©¦  ©¦      ngtcp2_crypto.h
+©¦  ©¦      ngtcp2_crypto_quictls.h
+©¦  ©¦      version.h
+©¦  ©¦      
+©¦  ©¸©¤openssl
+©¦          aes.h
+©¦          asn1.h
+©¦          asn1t.h
+©¦          bio.h
+©¦          blowfish.h
+©¦          bn.h
+©¦          buffer.h
+©¦          camellia.h
+©¦          cast.h
+©¦          chacha.h
+©¦          cmac.h
+©¦          cms.h
+©¦          comp.h
+©¦          conf.h
+©¦          crypto.h
+©¦          ct.h
+©¦          curve25519.h
+©¦          des.h
+©¦          dh.h
+©¦          dsa.h
+©¦          dtls1.h
+©¦          ec.h
+©¦          ecdh.h
+©¦          ecdsa.h
+©¦          engine.h
+©¦          err.h
+©¦          evp.h
+©¦          hkdf.h
+©¦          hmac.h
+©¦          idea.h
+©¦          kdf.h
+©¦          lhash.h
+©¦          md4.h
+©¦          md5.h
+©¦          mlkem.h
+©¦          modes.h
+©¦          objects.h
+©¦          obj_mac.h
+©¦          ocsp.h
+©¦          opensslconf.h
+©¦          opensslfeatures.h
+©¦          opensslv.h
+©¦          ossl_typ.h
+©¦          pem.h
+©¦          pkcs12.h
+©¦          pkcs7.h
+©¦          poly1305.h
+©¦          posix_time.h
+©¦          rand.h
+©¦          rc2.h
+©¦          rc4.h
+©¦          ripemd.h
+©¦          rsa.h
+©¦          safestack.h
+©¦          sha.h
+©¦          sm3.h
+©¦          sm4.h
+©¦          srtp.h
+©¦          ssl.h
+©¦          ssl3.h
+©¦          stack.h
+©¦          tls1.h
+©¦          ts.h
+©¦          txt_db.h
+©¦          ui.h
+©¦          x509.h
+©¦          x509v3.h
+©¦          x509_vfy.h
+©¦          
+©¸©¤lib
+        libbrotlicommon.a
+        libbrotlidec.a
+        libcrypto.a
+        libcurl.a
+        libcurl.dll.a
+        libnghttp2.a
+        libnghttp3.a
+        libngtcp2.a
+        libngtcp2_crypto_libressl.a
+        libpsl.a
+        libssh2.a
+        libssl.a
+        libz.a
+        libzstd.a
+        

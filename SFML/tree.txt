@@ -1,0 +1,131 @@
+These should exist in this directory. You can directly search for SFML and download it from the official website.
+SFML:.
+©¦  Audio.hpp
+©¦  Config.hpp
+©¦  GpuPreference.hpp
+©¦  Graphics.hpp
+©¦  imconfig-SFML.h
+©¦  imgui-SFML.h
+©¦  imgui-SFML_export.h
+©¦  Main.hpp
+©¦  Network.hpp
+©¦  OpenGL.hpp
+©¦  System.hpp
+©¦  tree.txt
+©¦  Window.hpp
+©¦  
+©À©¤Audio
+©¦      AudioResource.hpp
+©¦      Export.hpp
+©¦      InputSoundFile.hpp
+©¦      Listener.hpp
+©¦      Music.hpp
+©¦      OutputSoundFile.hpp
+©¦      PlaybackDevice.hpp
+©¦      Sound.hpp
+©¦      SoundBuffer.hpp
+©¦      SoundBufferRecorder.hpp
+©¦      SoundChannel.hpp
+©¦      SoundFileFactory.hpp
+©¦      SoundFileFactory.inl
+©¦      SoundFileReader.hpp
+©¦      SoundFileWriter.hpp
+©¦      SoundRecorder.hpp
+©¦      SoundSource.hpp
+©¦      SoundStream.hpp
+©¦      
+©À©¤Graphics
+©¦      BlendMode.hpp
+©¦      CircleShape.hpp
+©¦      Color.hpp
+©¦      Color.inl
+©¦      ConvexShape.hpp
+©¦      CoordinateType.hpp
+©¦      Drawable.hpp
+©¦      Export.hpp
+©¦      Font.hpp
+©¦      Glsl.hpp
+©¦      Glsl.inl
+©¦      Glyph.hpp
+©¦      Image.hpp
+©¦      PrimitiveType.hpp
+©¦      Rect.hpp
+©¦      Rect.inl
+©¦      RectangleShape.hpp
+©¦      RenderStates.hpp
+©¦      RenderTarget.hpp
+©¦      RenderTexture.hpp
+©¦      RenderWindow.hpp
+©¦      Shader.hpp
+©¦      Shape.hpp
+©¦      Sprite.hpp
+©¦      StencilMode.hpp
+©¦      Text.hpp
+©¦      Texture.hpp
+©¦      Transform.hpp
+©¦      Transform.inl
+©¦      Transformable.hpp
+©¦      Vertex.hpp
+©¦      VertexArray.hpp
+©¦      VertexBuffer.hpp
+©¦      View.hpp
+©¦      
+©À©¤Network
+©¦      Export.hpp
+©¦      Ftp.hpp
+©¦      Http.hpp
+©¦      IpAddress.hpp
+©¦      Packet.hpp
+©¦      Socket.hpp
+©¦      SocketHandle.hpp
+©¦      SocketSelector.hpp
+©¦      TcpListener.hpp
+©¦      TcpSocket.hpp
+©¦      UdpSocket.hpp
+©¦      
+©À©¤System
+©¦      Angle.hpp
+©¦      Angle.inl
+©¦      Clock.hpp
+©¦      Err.hpp
+©¦      Exception.hpp
+©¦      Export.hpp
+©¦      FileInputStream.hpp
+©¦      InputStream.hpp
+©¦      MemoryInputStream.hpp
+©¦      NativeActivity.hpp
+©¦      Sleep.hpp
+©¦      String.hpp
+©¦      String.inl
+©¦      SuspendAwareClock.hpp
+©¦      Time.hpp
+©¦      Time.inl
+©¦      Utf.hpp
+©¦      Utf.inl
+©¦      Vector2.hpp
+©¦      Vector2.inl
+©¦      Vector3.hpp
+©¦      Vector3.inl
+©¦      
+©¸©¤Window
+        Clipboard.hpp
+        Context.hpp
+        ContextSettings.hpp
+        Cursor.hpp
+        Event.hpp
+        Event.inl
+        Export.hpp
+        GlResource.hpp
+        Joystick.hpp
+        Keyboard.hpp
+        Mouse.hpp
+        Sensor.hpp
+        Touch.hpp
+        VideoMode.hpp
+        Vulkan.hpp
+        Window.hpp
+        WindowBase.hpp
+        WindowBase.inl
+        WindowEnums.hpp
+        WindowHandle.hpp
+        

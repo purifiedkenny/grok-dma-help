@@ -1,0 +1,14 @@
+These should be present in this directory. 
+lib:.
+©¦  freetype.lib
+©¦  freetyped.lib
+©¦  library_x64.lib
+©¦  sfml-graphics-s.lib
+©¦  sfml-system-s.lib
+©¦  sfml-window-s.lib
+©¦  tree.txt
+©¦  
+©¸©¤DMA
+        leechcore.lib
+        vmm.lib
+        
