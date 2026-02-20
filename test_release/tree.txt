@@ -1,0 +1,10 @@
+After successful compilation, the executable file should contain the following files to support runtime.
+build:.
+    FTD3XX.dll
+    leechcore.dll
+    Menu display.png
+    msyhbd.ttc
+    tree.txt
+    vmm.dll
+    Xerus-Apex.exe
+
