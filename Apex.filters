@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="SFML-IMGUI">
+      <UniqueIdentifier>{20a6e995-bf18-4c9a-b59f-8f3b79ebbb49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML-IMGUI\IMGUI">
+      <UniqueIdentifier>{cc9ed8d1-eb49-4c94-9bf5-4fed5af3bbf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw">
+      <UniqueIdentifier>{174e0bf2-c48d-43c8-a229-7d6dadc65b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw\Tools">
+      <UniqueIdentifier>{8a504612-222f-4aa8-91a3-a3ae585d2751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{2ff8f315-9ff9-4323-b061-be6a656470db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{e0e2e347-584c-4be8-b2f8-8dcb9bfcf94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\DMA">
+      <UniqueIdentifier>{0cdf526e-cf5e-480b-87b9-a26889c95efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\KeyAuth">
+      <UniqueIdentifier>{083d7512-39a2-4117-93aa-95600af76856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{3e44fd20-c4eb-48fd-ae63-22afa5c8aa4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Game">
+      <UniqueIdentifier>{1d523251-ed72-491e-b6e9-bbd0aefc4a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features">
+      <UniqueIdentifier>{7f9356d7-2254-493e-9790-5aab9ed04cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\Aimbot">
+      <UniqueIdentifier>{425eb3dd-b68c-4ece-8da8-04966dab75b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\ESP">
+      <UniqueIdentifier>{cd00e45f-29e3-4526-aec1-1cfc716793ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw\Tools\IMGUI-Render">
+      <UniqueIdentifier>{c9c4a631-b63a-4289-9e1f-da1b37b18723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Defines">
+      <UniqueIdentifier>{8af9da62-8471-44fa-891b-84a87492d3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\Glow">
+      <UniqueIdentifier>{760f841c-b684-4cd2-bba7-0b6ae3df4318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Kmbox">
+      <UniqueIdentifier>{1d00f680-3bba-4a6f-8169-f088ebcc4efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\TriggerBot">
+      <UniqueIdentifier>{9b5c9513-d9ab-4807-83bd-d6ecfdf804d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\SkyNade">
+      <UniqueIdentifier>{7747e0d2-811f-46d8-8bdd-475a884da590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\ShieldCheck">
+      <UniqueIdentifier>{4b941848-58ea-4086-938d-bf0026a76be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\Skeleton">
+      <UniqueIdentifier>{af924b3c-d27a-4a92-8f4d-ec037306ca2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\Spectator">
+      <UniqueIdentifier>{55898dda-1e2f-4992-a9a5-44eebbdbfa28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\WebRadar">
+      <UniqueIdentifier>{80daa179-b01b-4939-ad69-1fddf84a0b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Mongoose">
+      <UniqueIdentifier>{eb18d9f2-52c6-4b52-9cf0-f535fd70ab6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\Misc">
+      <UniqueIdentifier>{edd88013-9ed0-4946-9402-3ca18ac9867f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="include\DMALibrary\Memory\InputManager.cpp">
+      <Filter>Tools\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="include\DMALibrary\Memory\Memory.cpp">
+      <Filter>Tools\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="include\DMALibrary\Memory\Registry.cpp">
+      <Filter>Tools\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="include\DMALibrary\Memory\Shellcode.cpp">
+      <Filter>Tools\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Tools\KeyAuth</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Hack\Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Hack\Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiRender.cpp">
+      <Filter>Draw\Tools\IMGUI-Render</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_win32.cpp">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Hack\Features\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyDetector.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyCheck.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="KmBox.cpp">
+      <Filter>Tools\Kmbox</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Kmbox\KmBoxNet.cpp">
+      <Filter>Tools\Kmbox</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerBot.cpp">
+      <Filter>Hack\Features\TriggerBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Skynade.cpp">
+      <Filter>Hack\Features\SkyNade</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldCheck.cpp">
+      <Filter>Hack\Features\ShieldCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Hack\Features\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemProcessor.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Hack\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SFML\imgui-SFML.cpp">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectator.cpp">
+      <Filter>Hack\Features\Spectator</Filter>
+    </ClCompile>
+    <ClCompile Include="Webradar.cpp">
+      <Filter>Hack\Features\WebRadar</Filter>
+    </ClCompile>
+    <ClCompile Include="mongoose.c">
+      <Filter>Tools\Mongoose</Filter>
+    </ClCompile>
+    <ClCompile Include="temp.cpp">
+      <Filter>Hack\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Hack\Features\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VecDef.h">
+      <Filter>Draw\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DMALibrary\Memory\InputManager.h">
+      <Filter>Tools\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DMALibrary\Memory\Memory.h">
+      <Filter>Tools\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DMALibrary\Memory\Registry.h">
+      <Filter>Tools\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DMALibrary\Memory\Shellcode.h">
+      <Filter>Tools\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DMALibrary\libs\vmmdll.h">
+      <Filter>Tools\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DMALibrary\libs\leechcore.h">
+      <Filter>Tools\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Tools\KeyAuth</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Tools\KeyAuth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Tools\KeyAuth</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Updater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>Hack\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Hack\Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiRender.h">
+      <Filter>Draw\Tools\IMGUI-Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_win32.h">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemList.h">
+      <Filter>SDK\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="MPList.h">
+      <Filter>SDK\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Hack\Features\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowMode.h">
+      <Filter>SDK\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="AimAngle.h">
+      <Filter>Draw\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.h">
+      <Filter>SDK\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyDetector.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyConverter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCheck.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox.h">
+      <Filter>Tools\Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kmbox\HidTable.hpp">
+      <Filter>Tools\Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kmbox\KmboxB.h">
+      <Filter>Tools\Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kmbox\KmboxNet.hpp">
+      <Filter>Tools\Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerBot.h">
+      <Filter>Hack\Features\TriggerBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Skynade.h">
+      <Filter>Hack\Features\SkyNade</Filter>
+    </ClInclude>
+    <ClInclude Include="rawData.h">
+      <Filter>Draw\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldCheck.h">
+      <Filter>Hack\Features\ShieldCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Hack\Features\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemProcessor.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Hack\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\imgui-SFML.h">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\imgui-SFML_export.h">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFML\imconfig-SFML.h">
+      <Filter>SFML-IMGUI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Translation.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectator.h">
+      <Filter>Hack\Features\Spectator</Filter>
+    </ClInclude>
+    <ClInclude Include="mongoose.h">
+      <Filter>Tools\Mongoose</Filter>
+    </ClInclude>
+    <ClInclude Include="Webradar.h">
+      <Filter>Hack\Features\WebRadar</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Hack\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MapList.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
